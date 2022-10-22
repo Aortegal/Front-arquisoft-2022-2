@@ -3,8 +3,11 @@ import React from "react";
 function EnrollmentProcess () {
     return (
         <>
-            <div>
-                <h2>Enrollment Process</h2>
+            <div className="titles-container">
+                <h5>Enrollment Process</h5>
+            </div>
+            <div className="container-section">
+                <p>hola</p>
             </div>
         </>
   );

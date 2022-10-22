@@ -43,11 +43,11 @@ function Header () {
                 </a>
                 <div className="btn-group nav-boton boton-menu-grupo" role="group" aria-label="Basic example">
                     <button type="button" className="btn boton-menu-i" data-toggle="modal" data-target="#modal1">
-                        <i className="fa fa-phone fa-2x"></i>
+                        <i className="fa fa-phone fa-1x"></i>
                     </button>
 
                     <button type="button" className="btn boton-menu-d" data-toggle="modal" data-target="#modal2">
-                        <i className="fa fa-user fa-2x"></i>
+                        <i className="fa fa-user fa-1x"></i>
 
                     </button>
                 </div>

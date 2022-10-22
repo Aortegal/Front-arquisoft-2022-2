@@ -3,8 +3,11 @@ import React from "react";
 function FinancialInformation () {
     return (
         <>
-            <div>
-                <h2>Financial Information</h2>
+            <div className="titles-container">
+                <h5>Financial Information</h5>
+            </div>
+            <div className="container-section">
+                <p>hola</p>
             </div>
         </>
   );
