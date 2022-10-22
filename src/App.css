@@ -182,7 +182,6 @@ a:active{
   padding: 35px 120px 35px 120px;
   display: flex;
   margin:  auto;
-  display:flex;
   align-items:center;
 }
 
@@ -256,6 +255,8 @@ a:active{
 .boton-verde-rec:hover{
   background-color: #FA7D4F !important;
 }
+/* Principal Containesr */
+
 
 @media (max-width: 993px) {
   .img-landing{
