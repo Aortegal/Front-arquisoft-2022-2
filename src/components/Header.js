@@ -1,5 +1,6 @@
 import React from "react";
-import { FormikFormStudents } from "./signStudents";
+import { FormikFormStudents } from "./modalSignUp";
+import { FormikFormStudentsLogin } from "./modalLogin";
 
 function Header () {
     return (
@@ -13,8 +14,8 @@ function Header () {
                             <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
                             </button>
                         </div>
-                        <div className="modal-body">
-                            <FormikFormStudents />
+                        <div className="modal-body" style={{padding: "0px"}}>
+                            <FormikFormStudentsLogin />
                         </div>
                     </div>
                 </div>
@@ -29,7 +30,7 @@ function Header () {
                             <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
                             </button>
                         </div>
-                        <div className="modal-body">
+                        <div className="modal-body" style={{padding: "0px"}}>
                             <FormikFormStudents />
                         </div>
                     </div>

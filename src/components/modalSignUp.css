@@ -29,12 +29,17 @@
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
 }  
 
-.flex-child:first-child {
-    margin-right: 20px;
-} 
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+  }
+
+
+.modal.modal-lg, .modal.modal-xl{ 
+    max-width: unset !important; right: 0; 
+}
 
 label{
     font-family: 'Yanone Kaffeesatz', sans-serif;

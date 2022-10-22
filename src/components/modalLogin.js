@@ -11,9 +11,9 @@ import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
-import './signStudents.css';
+import './modalSignUp.css';
 
-export const FormikFormStudents = () => {
+export const FormikFormStudentsLogin = () => {
     const [showMessage, setShowMessage] = useState(false);
     const [formData, setFormData] = useState({});
 
@@ -88,45 +88,34 @@ export const FormikFormStudents = () => {
                 </div>
             </Dialog>
 
-            <div className="flex-container">
-                <div className="col-5 flex justify-content-center flex-child">
-                    <div className="card">
-                        <h5 className="text-center">Registro de Campus Kid</h5>
+            <div className="flex-container" style={{width: "100%"}}>
+                <div className="col-6 flex justify-content-center flex-child">
+                    <div className="card" style={{display: "flex", justifyContent: "center"}}>
+                        <h5 className="text-center">Login</h5>
                         <form onSubmit={formik.handleSubmit} className="p-fluid">
                             <div className="field py-2">
                                 <span className="p-float-label">
                                     <InputText id="name" name="name" value={formik.values.name} onChange={formik.handleChange} autoFocus className={classNames({ 'p-invalid': isFormFieldValid('name') })} />
-                                    <label htmlFor="name" className={classNames({ 'p-error': isFormFieldValid('name') })}>Nombre*</label>
+                                    <label htmlFor="name" className={classNames({ 'p-error': isFormFieldValid('name') })}>Username*</label>
                                 </span>
                                 {getFormErrorMessage('name')}
-                            </div>
-                            <div className="field py-2">
-                                <span className="p-float-label p-input-icon-right">
-                                    <i className="pi pi-envelope" />
-                                    <InputText id="email" name="email" value={formik.values.email} onChange={formik.handleChange} className={classNames({ 'p-invalid': isFormFieldValid('email') })} />
-                                    <label htmlFor="email" className={classNames({ 'p-error': isFormFieldValid('email') })}>Email*</label>
-                                </span>
-                                {getFormErrorMessage('email')}
                             </div>
                             <div className="field py-2">
                                 <span className="p-float-label">
                                     <Password id="password" name="password" value={formik.values.password} onChange={formik.handleChange} toggleMask
                                         className={classNames({ 'p-invalid': isFormFieldValid('password') })} header={passwordHeader} footer={passwordFooter} />
-                                    <label htmlFor="password" className={classNames({ 'p-error': isFormFieldValid('password') })}>Contraseña*</label>
+                                    <label htmlFor="password" className={classNames({ 'p-error': isFormFieldValid('password') })}>Password*</label>
                                 </span>
                                 {getFormErrorMessage('password')}
                             </div>
-                            <div className="field-checkbox">
-                                <Checkbox inputId="accept" name="accept" checked={formik.values.accept} onChange={formik.handleChange} className={classNames({ 'p-invalid': isFormFieldValid('accept') })} />
-                                <label htmlFor="accept" className={classNames({ 'p-error': isFormFieldValid('accept') })}>Acepto los términos y condiciones*</label>
-                            </div>
 
-                            <Button type="submit" label="Enviar" className="mt-2 boton-gris" />
+
+                            <Button type="submit" label="Send" className="mt-2 boton-gris" />
                         </form>
                     </div>
                 </div>
-                <div className="col-5 flex justify-content-center flex-child" style={{ backgroundColor: '#708C78', display: 'inline-block' }}>
-                    <img className="d-inline-block align-top App-logo" src="/images/logo.png" alt="hola" />
+                <div className="col-6 flex justify-content-center flex-child" style={{ backgroundColor: '#708C78', justifyContent: 'center', borderLeft: "solid 2px"}}>
+                    <img className="d-inline-block align-top" src="/images/Group 11.png" style={{height: '85%'}} />
                 </div>
             </div>
         </div>
