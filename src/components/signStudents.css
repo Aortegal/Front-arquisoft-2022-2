@@ -23,6 +23,19 @@
     display: none;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
 label{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 17px;

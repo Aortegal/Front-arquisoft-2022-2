@@ -4,8 +4,8 @@ import { FormikFormStudents } from "./signStudents";
 function Header () {
     return (
         <>
-            <div className="modal fade" id="modal1" tabindex="1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal fade modal-xl" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div className="modal-dialog modal-dialog-centered modal-xl" role="document">
                     <div className="modal-content">
                         <div className="modal-header App">
                             <h5 className="modal-title" id="exampleModalCenterTitle">Login</h5>
@@ -20,8 +20,8 @@ function Header () {
                 </div>
             </div>
 
-            <div className="modal fade" id="modal2" tabindex="1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal fade modal-xl" id="modal2" tabindex="1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div className="modal-dialog modal-dialog-centered modal-xl" role="document">
                     <div className="modal-content">
                         <div className="modal-header App">
                             <h5 className="modal-title" id="exampleModalCenterTitle">Sign</h5>
