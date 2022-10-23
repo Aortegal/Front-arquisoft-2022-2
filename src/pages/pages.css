@@ -59,3 +59,34 @@
     background-color:#2f2f2f !important;
     color:#fff !important;
 }
+
+.card-grades {
+    background-color: #ECE3DC !important;
+    max-width: 18rem !important;
+    border: none;
+    border-radius: 30px !important;
+}
+
+.orange {
+    background-color: #FA7D4F !important;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    color:#fff !important;
+}
+
+.boton-gris-sm {
+    background-color: #2f2f2f !important;
+    color: white !important;
+    padding: 10px 27px 10px 27px !important;
+    border-radius: 30px !important;
+  }
+  
+  .boton-gris-sm:hover {
+    background-color: #FA7D4F !important;
+  }
+
+  .form-input {
+    display: block;
+    margin: 20px 0px;
+    border: 1px solid lightblue;
+  }

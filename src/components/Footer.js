@@ -13,7 +13,7 @@ function Footer () {
                 <a href="http://" className="col-2" >HOME</a>
                 <a href="http://" className="col-2" >OUR SERVICES</a>
                 <a href="http://" className="col-2" >LOGIN</a>
-                <a href="http://" className="col-2" >CONTACT US</a>
+                <a href="http://" className="col-2" >SIGN UP</a>
                 </row>
             </div>
         </footer>
