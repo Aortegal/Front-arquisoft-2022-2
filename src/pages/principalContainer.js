@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PersonalInformation from "./personalInformation";
 import AcademicInformation from "./academicInformation";
 import EnrollmentProcess from "./enrollmentProcess";
-import FinancialInformation from "./financialInformation";
+import AcademicHistory from "./academicHistory";
 import "./pages.css";
 
 function PrincipalContainer () {
@@ -22,7 +22,7 @@ function PrincipalContainer () {
                             <i className="fa-solid fa-file-signature"></i>&nbsp;&nbsp;&nbsp;<h5 style={{display: 'inline-block'}}>Enrollment Process</h5>
                         </button>
                         <button className="nav-link boton-verde-rec item-menu-dash" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                            <i className="fa-solid fa-coins"></i>&nbsp;&nbsp;&nbsp;<h5 style={{display: 'inline-block'}}>Financial Information</h5>
+                            <i className="fa-solid fa-coins"></i>&nbsp;&nbsp;&nbsp;<h5 style={{display: 'inline-block'}}>Academic history</h5>
                         </button>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function PrincipalContainer () {
                             <EnrollmentProcess />
                         </div>
                         <div className="tab-pane fadel" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                            <FinancialInformation />
+                            <AcademicHistory />
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import PrincipalContainer from './pages/principalContainer';
 import AcademicInformation from './pages/academicInformation';
 import EnrollmentProcess from './pages/enrollmentProcess';
 import PersonalInformation from './pages/personalInformation';
-import FinancialInformation from './pages/financialInformation';
+import AcademicHistory from './pages/academicHistory';
 import './index.css';
 
 
@@ -29,7 +29,7 @@ ReactDOM.render(
           <Route exact path='/personal' element={<PersonalInformation />}/>
           <Route exact path='/academic' element={<AcademicInformation />}/>
           <Route exact path='/enrollment' element={<EnrollmentProcess />}/>
-          <Route exact path='/financial' element={<FinancialInformation />}/>
+          <Route exact path='/financial' element={<AcademicHistory />}/>
       </Routes>
       <Footer />
   </BrowserRouter>,
