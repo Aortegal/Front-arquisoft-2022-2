@@ -6,7 +6,7 @@ import EnrollmentProcess from "./enrollmentProcess";
 import AcademicHistory from "./academicHistory";
 import "./pages.css";
 
-function PrincipalContainer () {
+function StudentDash () {
     return (
         <>
             <div className="row container-principal">
@@ -47,4 +47,4 @@ function PrincipalContainer () {
 );
 }
 
-export default PrincipalContainer;
+export default StudentDash;

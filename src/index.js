@@ -6,7 +6,8 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import App from './App';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import PrincipalContainer from './pages/principalContainer';
+import StudentDash from './pages/studentDash';
+import TeacherDash from './pages/teacherDash';
 import AcademicInformation from './pages/academicInformation';
 import EnrollmentProcess from './pages/enrollmentProcess';
 import PersonalInformation from './pages/personalInformation';
@@ -25,7 +26,8 @@ ReactDOM.render(
       <Header />
       <Routes>
           <Route exact path='/' element={<App />}/>
-          <Route exact path='/principal' element={<PrincipalContainer />}/>
+          <Route exact path='/student' element={<StudentDash/>}/>
+          <Route exact path='/teacher' element={<TeacherDash/>}/>
           <Route exact path='/personal' element={<PersonalInformation />}/>
           <Route exact path='/academic' element={<AcademicInformation />}/>
           <Route exact path='/enrollment' element={<EnrollmentProcess />}/>
